@@ -29,12 +29,12 @@ const {
   checkForSuccessfulExecution,
 } = unitTestUtils;
 
-const service = {
+const dataVirtualizationServiceOptions = {
   authenticator: new NoAuthAuthenticator(),
   url: 'ibm.com/123456',
 };
 
-const dataVirtualizationService = new DataVirtualizationV1(service);
+const dataVirtualizationService = new DataVirtualizationV1(dataVirtualizationServiceOptions);
 
 // dont actually create a request
 const createRequestMock = jest.spyOn(dataVirtualizationService, 'createRequest');

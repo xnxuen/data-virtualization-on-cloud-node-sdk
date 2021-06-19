@@ -31,9 +31,9 @@ const describe = authHelper.prepareTests(configFile);
 describe('DataVirtualizationV1_integration', () => {
   const dataVirtualizationService = DataVirtualizationV1.newInstance({});
 
-  let config = readExternalSources(DataVirtualizationV1.DEFAULT_SERVICE_NAME);
-
   expect(dataVirtualizationService).not.toBeNull();
+
+  const config = readExternalSources(DataVirtualizationV1.DEFAULT_SERVICE_NAME);
   expect(config).not.toBeNull();
 
   jest.setTimeout(timeout);
