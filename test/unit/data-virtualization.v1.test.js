@@ -149,36 +149,36 @@ describe('DataVirtualizationV1', () => {
 
       // PostDatasourceConnectionParametersProperties
       const postDatasourceConnectionParametersPropertiesModel = {
-        access_token: 'testString',
-        account_name: 'testString',
-        api_key: 'testString',
-        auth_type: 'testString',
-        client_id: 'testString',
-        client_secret: 'testString',
-        collection: 'testString',
-        credentials: 'testString',
+        access_token: 'ya29.Il-_',
+        account_name: 'ibmdatastage.us-east-1',
+        api_key: 'ApiKey-a31d60c5-0f7b-4995-a4ae-69bf09d3de50',
+        auth_type: 'Bearer Token',
+        client_id: '81571342315',
+        client_secret: 'uIn8rVyIRsd',
+        collection: 'test_collection',
+        credentials: '-----BEGIN PRIVATE KEY-----',
         database: 'TPCDS',
         host: '192.168.0.1',
-        http_path: 'testString',
-        jar_uris: 'testString',
-        jdbc_driver: 'testString',
-        jdbc_url: 'testString',
+        http_path: 'cliservice',
+        jar_uris: '/v2/asset_files/dbdrivers/ngdbc.jar',
+        jdbc_driver: 'Snowflake',
+        jdbc_url: '/v2/asset_files/dbdrivers/ngdbc.jar',
         password: 'password',
         port: '50000',
-        project_id: 'testString',
-        properties: 'testString',
-        refresh_token: 'testString',
-        role: 'testString',
-        sap_gateway_url: 'testString',
-        server: 'testString',
-        service_name: 'testString',
-        sid: 'testString',
+        project_id: 'housecanary-com',
+        properties: 'key=value',
+        refresh_token: '1//06uwhP7_312g',
+        role: 'SYSADMIN',
+        sap_gateway_url: 'https://sapes5.sapdevcenter.com',
+        server: 'ol_informix1410',
+        service_name: 'pdborcl.fyre.ibm.com',
+        sid: 'orcl',
         ssl: 'false',
-        ssl_certificate: 'testString',
-        ssl_certificate_host: 'testString',
-        ssl_certificate_validation: 'testString',
+        ssl_certificate: '-----BEGIN CERTIFICATE-----',
+        ssl_certificate_host: 'test.com',
+        ssl_certificate_validation: 'false',
         username: 'db2inst1',
-        warehouse: 'testString',
+        warehouse: 'wdpcondev',
       };
 
       test('should pass the right params to createRequest', () => {
@@ -187,7 +187,7 @@ describe('DataVirtualizationV1', () => {
         const name = 'DB2';
         const originCountry = 'us';
         const properties = postDatasourceConnectionParametersPropertiesModel;
-        const assetCategory = 'testString';
+        const assetCategory = 'USER';
         const params = {
           datasourceType: datasourceType,
           name: name,
