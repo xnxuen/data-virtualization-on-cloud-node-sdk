@@ -36,7 +36,7 @@ Data Virtualization on Cloud | data-virtualization
 ## Installation
 
 ```sh
-npm install data-virtualization
+git clone git@github.com:IBM/data-virtualization-on-cloud-node-sdk.git
 ```
 
 ## Authentication
