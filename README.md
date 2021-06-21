@@ -7,6 +7,8 @@ the [IBM Data Virtualization on Cloud APIs]
 <summary>Table of Contents</summary>
 
 * [Overview](#overview)
+* [Prerequisites](#prerequisites)
+* [Installation](#installation)
 * [Authentication](#authentication)
 * [Error handling](#error-handling)
 * [License](#license)
@@ -15,7 +17,27 @@ the [IBM Data Virtualization on Cloud APIs]
 
 ## Overview
 
-The IBM Data Virtualization on Cloud Node.js SDK allows developers to programmatically interact with the following IBM Cloud services
+The IBM Data Virtualization on Cloud Node.js SDK allows developers to programmatically interact with the following IBM Cloud services:
+
+Service name | Import path
+--- | ---
+Data Virtualization on Cloud | data-virtualization
+
+## Prerequisites
+
+- An [IBM Cloud account](https://cloud.ibm.com/registration).
+- A [Data Virtualization on Cloud instance](https://cloud.ibm.com/catalog/services).
+- An [IBM Cloud API key](https://cloud.ibm.com/iam/apikeys) that allows the SDK to access your account.
+- Node.js version 12 or above.
+
+  This SDK is tested with Node versions 12 and up. The SDK may work on previous versions, but this is not supported
+  officially.
+
+## Installation
+
+```sh
+npm install data-virtualization
+```
 
 ## Authentication
 
