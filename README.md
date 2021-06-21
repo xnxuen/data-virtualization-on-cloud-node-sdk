@@ -21,7 +21,7 @@ The IBM Data Virtualization on Cloud Node.js SDK allows developers to programmat
 
 Service name | Import path
 --- | ---
-Data Virtualization on Cloud | data-virtualization
+[Data Virtualization on Cloud](https://cloud.ibm.com/apidocs/data-virtualization-on-cloud-python-sdk) | data-virtualization
 
 ## Prerequisites
 
