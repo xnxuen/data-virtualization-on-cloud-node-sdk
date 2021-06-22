@@ -1,7 +1,7 @@
 # IBM Data Virtualization on Cloud Node.js SDK
 
 A Node.js client library to interact with
-the [IBM Data Virtualization on Cloud APIs]
+the [IBM Data Virtualization on Cloud APIs](https://cloud.ibm.com/apidocs/data-virtualization-on-cloud).
 
 <details>
 <summary>Table of Contents</summary>
@@ -21,7 +21,7 @@ The IBM Data Virtualization on Cloud Node.js SDK allows developers to programmat
 
 Service name | Import path
 --- | ---
-[Data Virtualization on Cloud](https://cloud.ibm.com/apidocs/data-virtualization-on-cloud) | data-virtualization
+[Data Virtualization on Cloud](https://cloud.ibm.com/apidocs/data-virtualization-on-cloud-node-sdk) | data-virtualization
 
 ## Prerequisites
 
@@ -52,8 +52,8 @@ using [IAM authenticators](https://github.com/IBM/ibm-cloud-sdk-common/blob/mast
 
 ## Error-handling
 
-If you encounter an issue with the SDK, you are welcome to submit a bug report. Before that, please search for similar issues. It's possible someone has already encountered this issue.
+If you encounter an issue with the SDK, you are welcome to submit a [bug report](https://github.com/IBM/data-virtualization-on-cloud-node-sdk/issues). Before that, please search for similar issues. It's possible someone has already encountered this issue.
 
 ## License
 
-This SDK project is released under the Apache 2.0 license.
+This SDK project is released under the Apache 2.0 license. The license's full text can be found in [LICENSE](LICENSE).
