@@ -36,7 +36,7 @@ Service name | Import path
 ## Installation
 
 ```sh
-npm install data-virtualization
+git clone git@github.com:IBM/data-virtualization-on-cloud-node-sdk.git
 ```
 
 ## Authentication
