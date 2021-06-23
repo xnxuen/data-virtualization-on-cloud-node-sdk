@@ -4,7 +4,7 @@
 [![npm-version](https://img.shields.io/npm/v/CloudEngineering/node-sdk-template.svg)](https://www.npmjs.com/package/node-sdk-template)
 [![codecov](https://codecov.io/gh/CloudEngineering/node-sdk-template/branch/main/graph/badge.svg)](https://codecov.io/gh/CloudEngineering/node-sdk-template)
 -->
-# IBM Data Virtualization on Cloud Node.js SDK
+# IBM Data Virtualization on Cloud Node.js SDK V0.0.1
 A Node.js client library to interact with
 the [IBM Data Virtualization on Cloud APIs](https://cloud.ibm.com/apidocs/data-virtualization-on-cloud).
 
