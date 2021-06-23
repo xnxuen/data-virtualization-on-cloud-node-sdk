@@ -1,10 +1,10 @@
 {
-  "name": "mysdk",
+  "name": "ibm-data-virtualization-on-cloud",
   "version": "0.0.1",
-  "description": "IBM Cloud Node SDK",
+  "description": "IBM Data Virtualization on Cloud Node.js SDK",
   "repository": {
     "type": "git",
-    "url": "https://github.ibm.com/CloudEngineering/node-sdk-template"
+    "url": "https://github.com/IBM/data-virtualization-on-cloud-node-sdk"
   },
   "keywords": [
     "ibm"

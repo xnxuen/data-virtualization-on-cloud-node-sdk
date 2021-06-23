@@ -1,10 +1,10 @@
-[![Build Status](https://travis.ibm.com/CloudEngineering/node-sdk-template.svg?token=eW5FVD71iyte6tTby8gr&branch=main)](https://travis.ibm.com/CloudEngineering/node-sdk-template)
+[![Build Status](https://travis-ci.com/IBM/data-virtualization-on-cloud-node-sdk.svg?token=eW5FVD71iyte6tTby8gr&branch=main)](https://travis.ibm.com/IBM/data-virtualization-on-cloud-node-sdk)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 <!--
-[![npm-version](https://img.shields.io/npm/v/CloudEngineering/node-sdk-template.svg)](https://www.npmjs.com/package/node-sdk-template)
-[![codecov](https://codecov.io/gh/CloudEngineering/node-sdk-template/branch/main/graph/badge.svg)](https://codecov.io/gh/CloudEngineering/node-sdk-template)
+[![npm-version](https://img.shields.io/npm/v/IBM/data-virtualization-on-cloud-node-sdk.svg)](https://www.npmjs.com/package/ibm-platform-services)
+[![codecov](https://codecov.io/gh/IBM/data-virtualization-on-cloud-node-sdk/branch/main/graph/badge.svg)](https://codecov.io/gh/IBM/data-virtualization-on-cloud-node-sdk)
 -->
-# IBM Data Virtualization on Cloud Node.js SDK
+# IBM Data Virtualization on Cloud Node.js SDK V0.0.1
 A Node.js client library to interact with
 the [IBM Data Virtualization on Cloud APIs](https://cloud.ibm.com/apidocs/data-virtualization-on-cloud).
 
